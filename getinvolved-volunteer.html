@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!-- header -->
+  <title>ActiFist</title>
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="style.css">
+  <script src= "project.js"> </script>
+<!-- w3schools -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <div id="main" style="float:left">
+    <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+  </div>
+  <center>
+  <a href="project.html">
+    <img src="actifist.png" align="middle" width="1150">
+  </a>
+  </center>
+  </head>
+
+<!-- body -->
+  <body>
+
+<!-- sidenav -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="project.html">Homepage</a>
+      <a href="about.html">Meet the Team</a>
+      <a href="twitter.html">Read a Tweet</a>
+      <a href="communities.html">Communities</a>
+      <a href="issues.html">Issues</a>
+      <a href="mapdata.html">Around the World</a>
+      <a href="getinvolved.html">Get Involved</a>
+    </div>
+
+    <div class="w3-container">
+      <h1></h1>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  </style>
+  </head>
+  <body>
+
+  <p></p><p></p><p></p>
+  <center>
+  <a href="getinvolved-donate.html">
+    <img src="donate.png" alt="Pineapple" width="300" height="300" class="shake">
+  </a>
+  <a href="getinvolved-volunteer.html">
+    <img src="volunteer.png" alt="Pineapple" width="300" height="300" class="shake">
+  </a>
+  <a href="getinvolved-protest.html">
+    <img src="protest.png" alt="Pineapple" width="300" height="300" class="shake">
+  </a>
+  </center>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.containerTab {
+    padding: 20px;
+    color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2 style="color:#F16856">Lend a Hand to an Organization</h2>
+  <p>Click on the boxes below:</p>
+</div>
+
+<!-- Three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#A0C1B9;">
+    March for Our Lives
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:#B98EA7;">
+    Mental Health America
+  </div>
+  <div class="column" onclick="openTab('b3');" style="background:#49BEAA;">
+    CASA
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:#A0C1B9">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:#FFF">March for Our Lives</h2>
+  <center><p>Help organize voter registration events all summer long</p>
+  <a href="https://marchforourlives.com/volunteer/">Click Here</a></center>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#B98EA7">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:#FFF">Mental Health America</h2>
+  <center><p>By donating your time to Mental Health America or an affiliate, you can make a difference in as little as one hour.</p>
+  <a href="http://www.mentalhealthamerica.net/volunteer">Click Here</a></center>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#49BEAA">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:#FFF">CASA</h2>
+  <center><p>Help create a more just society by building power and improving the quality of life in working class and immigrant communities.</p>
+  <a href="https://wearecasa.org/get-involved">Click Here</a></center>
+</div>
+<p></p>
+<div class="row">
+  <div class="column" onclick="openTab('b4');" style="background:#FED766;">
+    UNICEF USA
+  </div>
+  <div class="column" onclick="openTab('b5');" style="background:#FF8585;">
+    Planned Parenthood
+  </div>
+  <div class="column" onclick="openTab('b6');" style="background:#49A078;">
+    Red Cross
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b4" class="containerTab" style="display:none;background:#FED766">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:#FFF">UNICEF USA</h2>
+  <center><p>Volunteers support UNICEF’s work to protect the rights of children through Educating, Advocating and Fundraising in their communities.</p>
+  <a href="https://marchforourlives.com/volunteer/">Click Here to Register Online</a></center>
+</div>
+
+<div id="b5" class="containerTab" style="display:none;background:#FF8585">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:#FFF">Planned Parenthood</h2>
+  <center><p>There are many ways you can help — from making phone calls in your own living room, to being trained to help out in our health centers.</p>
+  <a href="https://www.weareplannedparenthood.org/onlineactions/nN1X22HLyUOqnaf4IEHUCA2">Click Here to Register Online</a></center>
+</div>
+
+<div id="b6" class="containerTab" style="display:none;background:#49A078">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:#FFF">Red Cross</h2>
+  <center><p>Whether helping one displaced family or thousands, providing care and comfort to an ill or injured service member or veteran, or teaching others how to respond in emergencies, it’s through the efforts of ordinary people that we can do extraordinary things.</p>
+  <a href="http://www.redcross.org/volunteer/become-a-volunteer#step1">Click Here to Register Online</a></center>
+</div>
+
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+
+
+
+  </body>
+  </html>
+
+
+
+
+</body>

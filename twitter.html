@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<link rel="stylesheet" href="project.css">
+<link rel="stylesheet" href="twitter.css">
+<script src= "twitter.js"> </script>
+<script src= "project.js"> </script>
+
+
+
+<!-- w3schools -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<!-- this is the start of the twitter search section -->
+
+    <link href="jquery.multiselect.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="jquery.multiselect.js"></script>
+</head>
+
+<!-- body -->
+<body>
+
+  <div id="main" style="float:left">
+    <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+  </div>
+  <a href="project.html">
+  <center><img src="actifist.png" align="middle" width="1150"><center>
+  </a>
+  <!-- sidenav -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="project.html">Homepage</a>
+    <a href="about.html">Meet the Team</a>
+    <a href="twitter.html">Read a Tweet</a>
+    <a href="communities.html">Communities</a>
+    <a href="issues.html">Issues</a>
+    <a href="mapdata.html">Around the World</a>
+    <a href="getinvolved.html">Get Involved</a>
+  </div>
+
+  <div class="w3-container">
+    <h1></h1>
+
+<h1>
+  <!-- this is the title -->
+<p>
+<strong>
+Read a Tweet
+</strong>
+</p>
+
+</h1>
+
+<h4>Don't forget to click Search to see Tweets!</h4>
+
+
+    <select id="mySelect" name="basic[]" multiple="multiple" class="3col active">
+
+        <!-- <option value=<a multiple="twitter-timeline" href="https://twitter.com/TIMESUPNW?ref_src=twsrc%5Etfw">Times Up/Me Too</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/Blklivesmatter?ref_src=twsrc%5Etfw">Black Lives Matter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/AMarch4OurLives?ref_src=twsrc%5Etfw">March for our Lives</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/StandingRockST?ref_src=twsrc%5Etfw">American Indian Reservations</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/lgbtqnation?ref_src=twsrc%5Etfw">LGBTQ+</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/DisabledWorld?ref_src=twsrc%5Etfw">People with Disabilities</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/womensmarch?ref_src=twsrc%5Etfw">Womens March</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/March_for_Life?ref_src=twsrc%5Etfw">March for Life</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/Re4mImmigration?ref_src=twsrc%5Etfw">Reform Immigration</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/taxmarch?ref_src=twsrc%5Etfw">Tax March</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/ThisIsZeroHour?ref_src=twsrc%5Etfw">Climate Change</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value= <a class="twitter-timeline" href="https://twitter.com/NIMHgov?ref_src=twsrc%5Etfw">Mental Health</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option value=<a class="twitter-timeline" href="https://twitter.com/UNITEDWEDREAM?ref_src=twsrc%5Etfw">DACA/Dreamers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option>
+        <option <a class="twitter-timeline" href="https://twitter.com/ICNARelief?ref_src=twsrc%5Etfw">Relief for Muslims</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </option> -->
+
+
+        <option value="Times Up/Me Too">Times Up/Me Too
+        </option>
+        <option value="Black Lives Matter">Black Lives Matter
+        </option>
+        <option value="March for our Lives">March for our Lives
+        </option>
+        <option value="American Indian Reservations">American Indian Reservations
+        </option>
+        <option value="LGBTQ+">LGBTQ+
+        </option>
+        <option value="People with Disabilities">People with Disabilities
+        </option>
+        <option value="Women's March">Women's March
+          </option>
+        <option value="March for Life">March for Life
+          </option>
+        <option value="Reform Immigration">Reform Immigration
+          </option>
+        <option value="Tax March">Tax March
+        </option>
+        <option value="Climate Change">Climate Change
+        </option>
+        <option value= "Mental Health">Mental Health
+        </option>
+        <option value="DACA/Dreamers">DACA/Dreamers
+        </option>
+        <option value= "Relief for Muslims">Relief for Muslims
+        </option>
+
+      </select>
+      <button type="button" onclick="myFunction()">Search</button>
+
+    <p id="demo"></p>
+    <div id="tweets">
+      <div class="tweet" id="Times Up/Me Too" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/TIMESUPNOW?ref_src=twsrc%5Etfw">Times Up/Me Too</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="Black Lives Matter" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/Blklivesmatter?ref_src=twsrc%5Etfw">Black Lives Matter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="March for our Lives" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/AMarch4OurLives?ref_src=twsrc%5Etfw">March for our Lives</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="American Indian Reservations" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/StandingRockST?ref_src=twsrc%5Etfw">American Indian Reservations</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="LGBTQ+" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/lgbtqnation?ref_src=twsrc%5Etfw">LGBTQ+</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="People with Disabilities" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/DisabledWorld?ref_src=twsrc%5Etfw">People with Disabilities</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="Women's March" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/womensmarch?ref_src=twsrc%5Etfw">Womens March</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="March for Life" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/March_for_Life?ref_src=twsrc%5Etfw">March for Life</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="Reform Immigration" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/Re4mImmigration?ref_src=twsrc%5Etfw">Reform Immigration</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="Tax March" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/taxmarch?ref_src=twsrc%5Etfw">Tax March</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="Climate Change" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/ThisIsZeroHour?ref_src=twsrc%5Etfw">Climate Change</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="Mental Health" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/NIMHgov?ref_src=twsrc%5Etfw">Mental Health</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="DACA/Dreamers" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/UNITEDWEDREAM?ref_src=twsrc%5Etfw">DACA/Dreamers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="tweet" id="Relief for Muslims" style="display:none">
+        <a class="twitter-timeline" href="https://twitter.com/ICNARelief?ref_src=twsrc%5Etfw">Relief for Muslims</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+
+    <!-- <div x>
+    <a multiple="twitter-timeline" href="https://twitter.com/TIMESUPNW?ref_src=twsrc%5Etfw">Times Up/Me Too</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    </script> -->
+
+
+</body>
+</html>
